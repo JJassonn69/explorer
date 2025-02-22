@@ -52,6 +52,7 @@
     "@radix-ui/react-id": "^0.1.1",
     "@radix-ui/react-label": "^0.0.11",
     "@radix-ui/react-radio-group": "^0.0.14",
+    "@radix-ui/react-tooltip": "^1.1.8",
     "@rainbow-me/rainbowkit": "^1.0.5",
     "@reach/dialog": "^0.17.0",
     "@reach/tabs": "^0.17.0",
@@ -114,5 +115,6 @@
     "wagmi": "^1.4.12",
     "zustand": "^4.0.0-rc.2"
   },
-  "main": "package.json"
+  "main": "package.json",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
