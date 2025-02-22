@@ -154,8 +154,8 @@ export const CHAIN_INFO = {
       process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
         ? `https://gateway.thegraph.com/api/${
             SUBGRAPH_KEY ?? "none"
-          }/subgraphs/id/${SUBGRAPH_ID || "FDD65maya4xVfPnCjSgDRBz6UBWKAcmGtgY6BmUueJCg"}`
-        : "https://api.thegraph.com/subgraphs/name/livepeer/livepeer",
+          }/subgraphs/id/${SUBGRAPH_ID || "FE63YgkzcpVocxdCEyEYbvjYqEf2kb1A6daMYRxmejYC"}`
+        : "https://gateway.thegraph.com/api/{SUBGRAPH_KEY}/subgraphs/id/{SUBGRAPH_ID}",
     contracts: MAINNET_CONTRACTS,
   },
   // TODO this needs to be updated
